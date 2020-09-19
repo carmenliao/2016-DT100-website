@@ -1,0 +1,182 @@
+header,
+nav,
+article,
+footer {
+	display: block;
+}
+
+/**Page Layout**/
+body {
+	font-family: "Arial", "Lucida Grande", sans-serif;
+	font-size: 18px; 
+	background-image:url("../images/vintage.gif");
+}
+
+div#container {
+	width: 1000px;
+	border-style: double;
+	border-width: 10px;
+	margin: auto;
+	background-color: #DEBD5C;
+	overflow: auto;
+}
+
+header {
+	padding: 10px 20px;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: "Bell MT", "Lucida Grande", sans-serif
+}
+
+header h1{
+	font-family: "Bell MT", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color: black;
+}
+
+header h2{
+	font-family: "Bell MT", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	color: #191919;
+}
+
+nav {
+	padding: 10px 10px 10px 55px;
+	background-color: #D0D0D0;
+	overflow: hidden; /*This makes sure nav wraps around the floated list*/
+}
+
+nav ul {
+	list-style: none; /*This removes the bullet from the list items*/
+	margin: 0;
+	padding: 0; /*These collapse the margin and padding*/
+	text-align: center;
+	float: left; /*This goes left and collapses the width to fit the links inside it*/
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0 7.4em 0 0; /*adds space between links in nav*/
+	padding: 0;
+	text-align: center;
+	float: left; /* The float:left puts the elements side by side and is a technique for laying out horizontal elements*/
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+article {
+	background-color: #ffffff;
+	border-style: double;
+	border-color: #000000;
+	border-width: 5px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+
+article h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #191919;
+	margin: 10px;
+}
+
+article p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	padding: 8px 10px;
+}
+	
+article h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #191919;
+	margin: 10px;
+}
+
+article h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #191919;
+	margin: 10px;
+}
+
+footer{
+	padding: 0px 10px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #ddddbb;
+	font-size: 75%;
+}
+
+img.audrey1 {
+	padding: 10px;
+}
+
+img.audrey {
+	float: right;
+	padding: 10px;
+}
+
+img.audrey3 {
+	padding: 40px 10px 10px 10px;
+	float: right;
+}
+		
+img.tiffany {
+	padding: 10px;
+	float: left;
+}
+
+img.sabrina{
+	padding: 53px 10px 10px 10px;
+	float:right;
+}
+
+img.right {
+	padding: 10px 100px 10px 10px;
+}
+
+img.left {
+	padding: 10px 10px 10px 100px;
+}
+
+img.rightvert{
+	padding: 10px 4px 10px 10px;
+}
+
+img.leftvert{
+	padding: 10px 10px 10px 50px;
+}
+
+#bigpara {
+	font-size: 1em;
+}
+
+iframe{
+	padding: 10px 10px 10px 180px;
+}
+
+#big{
+	font-size: 1.8em;
+	font-family: Bell MT;
+}
+
+img.fashion{
+	padding-right: 150px;
+	padding-left: 100px;
+}
